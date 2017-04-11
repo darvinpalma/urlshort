@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<!-- Latest compiled and minified CSS -->
+	<title>Anything Philippines | {% block title %}Shorten the URL{% endblock title %}</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link href="http://getbootstrap.com/examples/cover/cover.css" rel="stylesheet">
+
+	<style>
+	body {
+		background-color: #092320
+	}	
+
+	.btn-link {
+		color: #f3aa2b;
+		text-shadow: none;
+	}
+
+	.btn-link:hover {
+		color: #85e057;
+	}
+	</style>
+	
+
+</head>
+<body>
+
+<div class="site-wrapper">
+	<div class="site-wrapper-inner">
+    	<div class="cover-container">
+        	<div class="inner cover">
+
+          		{% block content %}
+				{% endblock content %}
+
+          	</div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
