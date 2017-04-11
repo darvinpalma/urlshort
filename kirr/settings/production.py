@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 SECRET_KEY = '#x*1nm!94^y@-2)*y8)gk5)h@)pwiy#!*1ydtr_)ftjhl$#v-%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -62,7 +62,7 @@ ROOT_URLCONF = 'kirr.urls'
 ROOT_HOSTCONF = 'kirr.hosts'
 DEFAULT_HOST = 'www'
 DEFAULT_REDIRECT_URL = "https://darvinurlshort.herokuapp.com"
-PARENT_HOST = "darvinurlshort.herokuapp.com"
+PARENT_HOST = "https://darvinurlshort.herokuapp.com"
 
 TEMPLATES = [
     {
