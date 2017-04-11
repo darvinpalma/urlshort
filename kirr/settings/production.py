@@ -61,8 +61,8 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'kirr.urls'
 ROOT_HOSTCONF = 'kirr.hosts'
 DEFAULT_HOST = 'www'
-DEFAULT_REDIRECT_URL = "http://www.anythingphilippines.com"
-PARENT_HOST = "anythingphilippines.com"
+DEFAULT_REDIRECT_URL = "https://darvinurlshort.herokuapp.com"
+PARENT_HOST = "darvinurlshort.herokuapp.com"
 
 TEMPLATES = [
     {
